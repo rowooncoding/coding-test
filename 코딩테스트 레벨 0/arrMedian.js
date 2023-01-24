@@ -1,13 +1,6 @@
 // 중앙값 구하기
 function solution(array) {
-  // 중앙값 찾기
-  const midNum = Math.floor(array.length / 2);
-
-  // 오름차순 정렬
-  const array = array.sort((a, b) => a - b);
-
-  // 오름 차순 중 중간 값 반환하기
-  return array[midNum];
+  return array.sort((a, b) => a - b)[Math.floor(array.length/2)];
 }
 
 /*
