@@ -1,2 +1,3 @@
-y = int(input())
-print(y - 543)
+year = int(input())
+result = year - 543
+print(result)
