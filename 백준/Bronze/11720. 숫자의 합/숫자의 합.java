@@ -3,13 +3,12 @@ import java.util.Scanner;
 class Main {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
-        int count = sc.nextInt(); // 문자의 개수
+        int count = sc.nextInt();
         char[] charArray = sc.next().toCharArray();
 
         int ans = 0;
         for (int i = 0; i < charArray.length; i++) {
-            char numberChar = charArray[i];
-            ans += Integer.parseInt(String.valueOf(numberChar));
+            ans += Integer.parseInt(String.valueOf(charArray[i]));
         }
 
         System.out.println(ans);
