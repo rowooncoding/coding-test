@@ -1,6 +1,7 @@
 # 저는 이렇게 풀었어요!!!
-> 다른 의견이 있으시다면 제 티스토리 댓글에 남겨주세요<br><br>
+> 다른 의견이 있으시다면 제 티스토리 댓글에 남겨주세요
 
+<br><br>
 ## 백준
 <ul>
   <li>
@@ -9,8 +10,13 @@
   <li>
     <a href="https://codebene.tistory.com/165">1157_단어공부</a>
   </li>
+    <li>
+    <a href="https://www.tistory.com/">1543_문서검색</a> *replace 활용한 풀이 추가
+  </li>
+<!--   <li>
+    <a href="https://www.tistory.com/">1543_문서검색</a> *replace 활용한 풀이 추가
+  </li> -->
 </ul>
-
 
 <br><br>
 ## 프로그래머스
