@@ -13,8 +13,17 @@
     <li>
     <a href="https://www.tistory.com/">1543_문서검색</a> *replace 활용한 풀이 추가
   </li>
+  <li>
+    <a href="https://codebene.tistory.com/169">13223_소금폭탄</a>
+  </li>
 <!--   <li>
-    <a href="https://www.tistory.com/">1543_문서검색</a> *replace 활용한 풀이 추가
+    <a href="">13223_소금폭탄</a>
+  </li> -->
+<!--   <li>
+    <a href="">13223_소금폭탄</a>
+  </li> -->
+<!--   <li>
+    <a href="">13223_소금폭탄</a>
   </li> -->
 </ul>
 
