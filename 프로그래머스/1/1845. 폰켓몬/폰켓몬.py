@@ -1,5 +1,5 @@
 def solution(nums):
-    unique_types = len(set(nums))
-    max_pick = len(nums) // 2
+    nums_set = len(set(nums))
+    nums_count = len(nums) // 2
     
-    return min(unique_types, max_pick)
+    return min(nums_set, nums_count)
