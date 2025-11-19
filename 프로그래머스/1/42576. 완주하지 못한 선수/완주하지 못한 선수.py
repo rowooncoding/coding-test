@@ -1,12 +1,7 @@
+from collections import Counter
+
 def solution(participant, completion):
-    participant_dic = {}
+    dic = Counter(participant) - Counter(completion)
+    return list(dic.keys())[0]
+        
     
-    for name in participant:
-        participant_dic[name] = participant_dic.get(name, 0) + 1
-        
-    for name in completion:
-        participant_dic[name] -= 1
-        
-    for name, count in participant_dic.items():
-        if count > 0:
-            return name
