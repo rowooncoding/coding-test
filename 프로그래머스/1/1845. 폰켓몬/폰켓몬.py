@@ -3,3 +3,4 @@ def solution(nums):
     pick = len(nums) // 2
     
     return min(unique, pick)
+    
