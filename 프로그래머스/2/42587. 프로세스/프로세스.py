@@ -1,13 +1,16 @@
+from collections import deque
+
 def solution(priorities, location):
-    queue = [(i, p) for i, p in enumerate(priorities)]
-    count = 0
+    q = deque(enumerate(priorities))
+    execute = 0
     
-    while(queue):
-        current = queue.pop(0)
+    while q:
         
-        if any(current[1] < q[1] for q in queue):
-            queue.append(current)
+        idx, cur = q.popleft()
+        
+        if any(p > cur for _, p in q):
+            q.append((idx, cur))
         else:
-            count += 1
-            if current[0] == location:
-                return count
+            execute += 1
+            if idx == location:
+                return execute
